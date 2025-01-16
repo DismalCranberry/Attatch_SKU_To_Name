@@ -6,7 +6,7 @@ public class ProductTitleUpdaterCSV {
     public static void main(String[] args) {
         // File paths for input files
         String productTitleFile = "product_titles.txt"; // Product titles file
-        String skuFile = "sku_numbers.txt";             // SKU numbers file
+        String skuFile = "sku_numbers.txt"; // SKU numbers file
         String outputFile = "updated_product_titles.csv"; // Output CSV file
 
         try {
