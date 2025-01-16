@@ -36,7 +36,7 @@ public class ProductTitleUpdaterCSV {
         BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
 
         // Write the header for the CSV file
-        writer.write("SKU,ProductNameWithSKU\n");
+        writer.write("sku,ProductNameWithSKU\n");
 
         // Loop through the product titles and SKU numbers, and write the combined data
         for (int i = 0; i < productTitles.size(); i++) {
